@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: elasticsearch-logging
-  namespace: efk-demo
+  namespace: efk-canary
   labels:
     k8s-app: elasticsearch-logging
     kubernetes.io/cluster-service: "true"
